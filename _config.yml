@@ -105,4 +105,7 @@ theme: yun
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/MTChaoyi/blog.git # 比如：https://github.com/YunYouJun/yunyoujun.github.io
+  branch: main # 默认使用 master 分支
+  message: 2023/02/06 23:56 # 你可以自定义此次部署更新的说明
