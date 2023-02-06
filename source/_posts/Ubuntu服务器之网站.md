@@ -162,4 +162,4 @@ description: Ubuntu服务器配置各种网站
 
 **一路回车直到显示**
 
-<div align=center><img src=".pic/2022-11-18-22-05-13.png" width=80%/></div>
+<div align=center><img src="https://cdn.jsdelivr.net/gh/MTChaoyi/Blog-Hexo@main/source/_posts/.pic/2022-11-18-22-05-13.png" width=80%/></div>

@@ -5,7 +5,7 @@ avatar:
   opacity: 1
   mickey_mouse: false
   status:
-    enable: false
+    enable: true
     emoji: 😭
     message: 不想上学
 
@@ -115,13 +115,13 @@ post_card:
 
 post_meta:
   item_text: false
-  created_at: true
+  created_at: false
   updated_at: true
   categories: true
   tags: true
 
 toc:
-  list_number: true
+  list_number: false
   max_depth: 6
   min_depth: 1
   placeholder: 很遗憾，咱没写啥目录
@@ -130,7 +130,7 @@ toc:
 # 编辑链接
 post_edit:
   enable: true
-  url: https://github.com/MTChaoyi/Blog-Hexo/source/
+  url: https://github.com/MTChaoyi/Blog-Hexo/tree/main/source/
 
 codeblock:
   copy_btn: true
@@ -195,12 +195,11 @@ wordcount:
 wordcloud:
   enable: true
 
+custom:
+  style: source/_data/style/*
+
 cdn:
-  pre: ""  # https://cdn.jsdelivr.net/gh/MTChaoyi/MTChaoyi.github.io@latest
-  css:
   js:
-    base:
     async:
       # 默认引入的图标资源，使用 iconfont
       iconfont: //at.alicdn.com/t/font_1140697_dxory92pb0h.js
-    defer:

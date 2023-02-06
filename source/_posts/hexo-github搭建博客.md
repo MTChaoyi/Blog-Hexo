@@ -39,7 +39,7 @@ Hexo 基于 Node.js，搭建过程中还需要使用 npm（Node.js 已带） 和
 下载 Node.js 和 Git 程序并安装，一路点 “下一步” 按默认配置完成安装。
 
 安装完成后, `Win+R` 输入 `cmd` 并打开，依次输入 `node -v`、`npm -v` 和 `git --version` 并回车，如下图出现程序版本号即可。
-<div align=center><img src=".pic/2022-11-19-01-53-43.png" width = 60%/></div>
+<div align=center><img src="https://cdn.jsdelivr.net/gh/MTChaoyi/Blog-Hexo@main/source/_posts/.pic/2022-11-19-01-53-43.png" width = 60%/></div>
 
 # 连接 Github
 
@@ -69,7 +69,7 @@ Hexo 基于 Node.js，搭建过程中还需要使用 npm（Node.js 已带） 和
 - 验证连接：<br>
   打开 Git Bash，输入 `ssh -T git@github.com` 出现 *Are you sure……*，输入 `yes` 回车确认。
 
-  <div align=center><img src=".pic/2022-11-19-02-17-03.png" width = 80%/></div>
+  <div align=center><img src="https://cdn.jsdelivr.net/gh/MTChaoyi/Blog-Hexo@main/source/_posts/.pic/2022-11-19-02-17-03.png" width = 80%/></div>
   显示 *Hi xxx! You've successfully……* 即连接成功。
 
 # 创建 Github Pages 仓库
@@ -117,12 +117,12 @@ hexo s    # 启动预览
 ```
 访问 http://localhost:4000, 出现 Hexo 默认页面，本地博客安装成功！
 
-<div align=center><img src=".pic/2022-11-19-01-54-11.png" width = 80%/></div>
+<div align=center><img src="https://cdn.jsdelivr.net/gh/MTChaoyi/Blog-Hexo@main/source/_posts/.pic/2022-11-19-01-54-11.png" width = 80%/></div>
 
 **Tips：** 如果出现页面加载不出来，可能是端口被占用了。*Ctrl+C* 关闭服务器，运行 `hexo server -p 5000` 更改端口号后重试。<br><br>
 
 **Hexo 博客文件夹目录结构如下：**
-<div align=center><img src=".pic/2022-11-19-01-55-05.png" width = 80%/></div>
+<div align=center><img src="https://cdn.jsdelivr.net/gh/MTChaoyi/Blog-Hexo@main/source/_posts/.pic/2022-11-19-01-55-05.png" width = 80%/></div>
 
 # 部署 Hexo 到 GitHub Pages
 本地博客测试成功后，就是上传到 GitHub 进行部署，使其能够在网络上访问。

@@ -38,12 +38,12 @@ description: 自用的Ubuntu服务器搭建过程
 ## Step2 - 写系统安装U盘
 **1. 打开Rufus**
 
-<div align=center><img src=".pic/2022-11-13-21-57-50.png" width=50%/></div>
+<div align=center><img src="https://cdn.jsdelivr.net/gh/MTChaoyi/Blog-Hexo@main/source/_posts/.pic/2022-11-13-21-57-50.png" width=50%/></div>
 
 
 **2. 将系统写入U盘**
 
-<div align=center><img src=".pic/2022-11-13-22-06-04.png" width=50%/></div>
+<div align=center><img src="https://cdn.jsdelivr.net/gh/MTChaoyi/Blog-Hexo@main/source/_posts/.pic/2022-11-13-22-06-04.png" width=50%/></div>
 
 
 ## Step3 - 安装 Ubuntu Server
@@ -56,53 +56,53 @@ description: 自用的Ubuntu服务器搭建过程
 
 **3. 选择English**
 
-<div align=center><img src=".pic/2022-11-13-22-36-06.png" width=80%/></div>
+<div align=center><img src="https://cdn.jsdelivr.net/gh/MTChaoyi/Blog-Hexo@main/source/_posts/.pic/2022-11-13-22-36-06.png" width=80%/></div>
 
 **4. 选择键盘，默认即可**
 
-<div align=center><img src=".pic/2022-11-13-22-36-56.png" width=80%/></div>
+<div align=center><img src="https://cdn.jsdelivr.net/gh/MTChaoyi/Blog-Hexo@main/source/_posts/.pic/2022-11-13-22-36-56.png" width=80%/></div>
 
 **5. 选安装方式，默认即可**
 
-<div align=center><img src=".pic/2022-11-13-22-38-18.png" width=80%/></div>
+<div align=center><img src="https://cdn.jsdelivr.net/gh/MTChaoyi/Blog-Hexo@main/source/_posts/.pic/2022-11-13-22-38-18.png" width=80%/></div>
 
 **6. 选择网络**
 
-<div align=center><img src=".pic/2022-11-13-22-40-29.png" width=80%/></div>
+<div align=center><img src="https://cdn.jsdelivr.net/gh/MTChaoyi/Blog-Hexo@main/source/_posts/.pic/2022-11-13-22-40-29.png" width=80%/></div>
 
 **7. 选择代理，默认即可**
 
-<div align=center><img src=".pic/2022-11-13-22-41-17.png" width=80%/></div>
+<div align=center><img src="https://cdn.jsdelivr.net/gh/MTChaoyi/Blog-Hexo@main/source/_posts/.pic/2022-11-13-22-41-17.png" width=80%/></div>
 
 **8. 选择镜像仓库，推荐修改为国内镜像，例如阿里云的镜像**
 ```
 http://mirrors.aliyun.com/ubuntu
 ```
-<div align=center><img src=".pic/2022-11-13-23-02-27.png" width=80%/></div>
+<div align=center><img src="https://cdn.jsdelivr.net/gh/MTChaoyi/Blog-Hexo@main/source/_posts/.pic/2022-11-13-23-02-27.png" width=80%/></div>
 
 **9. 磁盘分区方式**
 
-<div align=center><img src=".pic/2022-11-13-23-06-39.png" width=80%/></div>
+<div align=center><img src="https://cdn.jsdelivr.net/gh/MTChaoyi/Blog-Hexo@main/source/_posts/.pic/2022-11-13-23-06-39.png" width=80%/></div>
 
 + 一般默认即可
 + 如果选择手动分区
   + 500G及以上硬盘推荐配置
-  <div align=center><img src=".pic/2022-11-13-23-08-31.png" width=80%/></div>
+  <div align=center><img src="https://cdn.jsdelivr.net/gh/MTChaoyi/Blog-Hexo@main/source/_posts/.pic/2022-11-13-23-08-31.png" width=80%/></div>
 
   + 100G左右硬盘推荐配置
-  <div align=center><img src=".pic/2022-11-13-23-10-06.png" width=80%/></div>
+  <div align=center><img src="https://cdn.jsdelivr.net/gh/MTChaoyi/Blog-Hexo@main/source/_posts/.pic/2022-11-13-23-10-06.png" width=80%/></div>
 
 **10. 填写用户名密码等信息**
 
-<div align=center><img src=".pic/2022-11-13-23-11-59.png" width=80%/></div>
+<div align=center><img src="https://cdn.jsdelivr.net/gh/MTChaoyi/Blog-Hexo@main/source/_posts/.pic/2022-11-13-23-11-59.png" width=80%/></div>
 
 **11. 安装ssh，推荐安装**
 
-<div align=center><img src=".pic/2022-11-13-23-15-18.png" width=80%/></div>
+<div align=center><img src="https://cdn.jsdelivr.net/gh/MTChaoyi/Blog-Hexo@main/source/_posts/.pic/2022-11-13-23-15-18.png" width=80%/></div>
 
 **12. 等待安装完成**
 
-<div align=center><img src=".pic/2022-11-13-23-16-12.png" width=80%/></div>
+<div align=center><img src="https://cdn.jsdelivr.net/gh/MTChaoyi/Blog-Hexo@main/source/_posts/.pic/2022-11-13-23-16-12.png" width=80%/></div>
 
 > 出现 Reboot Now 即安装完成，回车确认重启</br>
 > 如果卡在某条语句一直没反应可断网重新安装系统
@@ -119,12 +119,12 @@ http://mirrors.aliyun.com/ubuntu
     sudo dpkg-reconfigure locales
     ```
 - 向下翻,在靠近末尾的位置找到 `zh_CN.UTF-8 UTF-8` , 用 `空格键` 选中前面会添上 `*` ,然后回车键
-  <div align=center><img src=".pic/2022-11-19-00-59-37.png" width=80%/></div>
+  <div align=center><img src="https://cdn.jsdelivr.net/gh/MTChaoyi/Blog-Hexo@main/source/_posts/.pic/2022-11-19-00-59-37.png" width=80%/></div>
 
 - 再次选择 `zh_CN.UTF-8` , 然后回车完成设置
-  <div align=center><img src=".pic/2022-11-19-01-00-30.png" width=80%/></div>
+  <div align=center><img src="https://cdn.jsdelivr.net/gh/MTChaoyi/Blog-Hexo@main/source/_posts/.pic/2022-11-19-01-00-30.png" width=80%/></div>
 
-  <div align=center><img src=".pic/2022-11-19-01-01-03.png" width=70%/></div>
+  <div align=center><img src="https://cdn.jsdelivr.net/gh/MTChaoyi/Blog-Hexo@main/source/_posts/.pic/2022-11-19-01-01-03.png" width=70%/></div>
 
 - 重启系统
   ```
@@ -143,12 +143,12 @@ http://mirrors.aliyun.com/ubuntu
 ```
 sudo fdisk -l
 ```
-<div align=center><img src=".pic/2022-12-04-15-05-14.png" width = 80%/></div>
+<div align=center><img src="https://cdn.jsdelivr.net/gh/MTChaoyi/Blog-Hexo@main/source/_posts/.pic/2022-12-04-15-05-14.png" width = 80%/></div>
 
 **2. 将磁盘挂载在某个地方**
 
 - `mount /dev/sdb1 需要挂载的路径`需要挂载的路径必须存在
-<div align=center><img src=".pic/2022-12-04-15-07-33.png" width = 80%/></div>
+<div align=center><img src="https://cdn.jsdelivr.net/gh/MTChaoyi/Blog-Hexo@main/source/_posts/.pic/2022-12-04-15-07-33.png" width = 80%/></div>
 
 - 出现`Could not mount read-write, trying read-only`说明挂载读写失败，以只读挂载成功
   - 取消挂载
@@ -159,7 +159,7 @@ sudo fdisk -l
     ```
     sudo ntfsfix /dev/sdb1
     ```
-    <div align=center><img src=".pic/2022-12-04-15-13-19.png" width = 80%/></div>
+    <div align=center><img src="https://cdn.jsdelivr.net/gh/MTChaoyi/Blog-Hexo@main/source/_posts/.pic/2022-12-04-15-13-19.png" width = 80%/></div>
   - 重新挂载硬盘
     ```
     sudo mount -t ntfs /dev/sdb1 /home/mtchaoyi/sdb1
@@ -168,14 +168,14 @@ sudo fdisk -l
     ```
     mount
     ```
-    <div align=center><img src=".pic/2022-12-04-15-16-12.png" width = 80%/></div>
+    <div align=center><img src="https://cdn.jsdelivr.net/gh/MTChaoyi/Blog-Hexo@main/source/_posts/.pic/2022-12-04-15-16-12.png" width = 80%/></div>
 **3. 设置开机自动挂载**
 
 - 查看硬盘UUID
   ```
   sudo blkid /dev/sdb1
   ```
-  <div align=center><img src=".pic/2022-12-04-15-18-55.png" width = 80%/></div>
+  <div align=center><img src="https://cdn.jsdelivr.net/gh/MTChaoyi/Blog-Hexo@main/source/_posts/.pic/2022-12-04-15-18-55.png" width = 80%/></div>
 - 修改fstab
   ```
   sudo nano /etc/fstab
@@ -202,7 +202,7 @@ sudo fdisk -l
     browseable = yes
     writable = yes
   ```
-<div align=center><img src=".pic/2023-02-02-20-06-29.png" width = 80%/></div>
+<div align=center><img src="https://cdn.jsdelivr.net/gh/MTChaoyi/Blog-Hexo@main/source/_posts/.pic/2023-02-02-20-06-29.png" width = 80%/></div>
 
 - 创建使用该共享文件的账号
   ```
@@ -245,7 +245,7 @@ sudo fdisk -l
   ```
   df -h
   ```
-<div align=center><img src=".pic/2023-02-05-14-09-13.png" width = 80%/></div>
+<div align=center><img src="https://cdn.jsdelivr.net/gh/MTChaoyi/Blog-Hexo@main/source/_posts/.pic/2023-02-05-14-09-13.png" width = 80%/></div>
 
 - 跳转到需要清理空间的挂载点，查看最大占用的一级目录
   ```
@@ -264,7 +264,7 @@ sudo fdisk -l
   sudo zerotier-cli join 你的network ID
   ```
 - 登入zerotier官网，进入你的局域网，在Ubuntu前面打勾，授权
-  <div align=center><img src=".pic/2023-02-02-20-14-32.png" width = 80%/></div>
+  <div align=center><img src="https://cdn.jsdelivr.net/gh/MTChaoyi/Blog-Hexo@main/source/_posts/.pic/2023-02-02-20-14-32.png" width = 80%/></div>
 
 ## 安装xrdp远程桌面(桌面没啥用)
 - 运行下面任何一个命令去安装你选择的桌面环境
